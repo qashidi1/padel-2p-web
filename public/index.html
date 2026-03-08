@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2P Padel Web Game</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>2 Player Padel Web Game</h1>
+    <div class="topbar">
+      <div id="roleBox">Connecting...</div>
+      <div id="scoreBox">0 : 0</div>
+      <button id="restartBtn">Restart</button>
+    </div>
+    <p class="help">
+      Kontrol: A/D/W atau Arrow Left/Right/Up.  
+      Device pertama jadi Left Player, device kedua jadi Right Player.
+    </p>
+    <canvas id="game" width="1000" height="500"></canvas>
+    <p id="status"></p>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/client.js"></script>
+</body>
+</html>
