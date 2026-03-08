@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #101820;
+  color: #ffffff;
+  text-align: center;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.topbar {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+#roleBox,
+#scoreBox {
+  background: #1f2a36;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #ffb703;
+  color: #111;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+canvas {
+  background: linear-gradient(to top, #c8e6ff 0%, #c8e6ff 65%, #7cc7ff 65%, #7cc7ff 100%);
+  border: 3px solid #ffffff;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.help,
+#status {
+  margin-top: 12px;
+}
